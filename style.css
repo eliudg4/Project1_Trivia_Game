@@ -1,0 +1,144 @@
+#home {
+    background-image: url("https://www.ohio.edu/sites/ohio.edu.news/files/2021-03/Jeopardy_S37_OnSetLogo%20%28002%29.jpg");
+    /* /* background-color:navy; */
+    
+    /* height: 100vh; */
+    /* width: 10vw; */
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin: auto;
+      
+}
+
+body {
+    background-color:navy;
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.buttons {
+    /* width: 500px; */
+    /* height: 50px; */
+    /* position: relative; */
+    margin-top: 98%;
+    /* left: 30%; */
+    text-align: justify;
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+}
+
+#onePlayer {
+    width: 200px;
+    height: 50px;
+}
+
+#twoPlayer {
+    width: 200px;
+    height: 50px;
+}
+
+#Howto {
+    width: 200px;
+    height: 50px;
+}
+
+.modal {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.modall {
+    background-color: white;
+    width: 500px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.modal.open {
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+#Timer {
+    text-align: right;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+}
+
+#Score {
+    text-align: right;
+}
+
+#images {
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    min-height: 500px;
+    background-color: black;
+    border: solid silver 2px;
+    
+}
+
+.box {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+#category {
+    background-color: black;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+    color: silver;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+#header {
+    font-size: 65px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+    
+}
+
+#directions {
+    color: black;
+    text-decoration: underline;
+}
