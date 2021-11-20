@@ -44,7 +44,6 @@
             document.querySelector('#questions').innerText = questions[i]
             button.dataset.i = i
             modal.classList.add('open')
-            // console.dir(document.querySelector('#questions'))
             let new_element = box.cloneNode(true);
             new_element.innerHTML = ''
             box.parentNode.replaceChild(new_element, box);
