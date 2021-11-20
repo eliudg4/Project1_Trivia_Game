@@ -1,55 +1,83 @@
-#home {
-    background-image: url("https://www.ohio.edu/sites/ohio.edu.news/files/2021-03/Jeopardy_S37_OnSetLogo%20%28002%29.jpg");
-    /* /* background-color:navy; */
-    
-    /* height: 100vh; */
-    /* width: 10vw; */
-    /* position: absolute; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* padding-left: 100px;
-    padding-right: 100px; */
-    margin: auto;
-      
-}
 
 body {
     background-color:navy;
     color: white;
+    
 }
 
-header {
+#home {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}
+
+#home a {
+    text-decoration: none;
+    color: black;
+}
+
+#reset {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}
+
+ header {
     text-align: center;
     font-size: 60px;
     font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+#buttons {
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    font-size: 25px;
+    color: orange;
+    font-family: cursive;
+    font-weight: bolder;
+    border: 5px solid orange;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
 }
 
-.buttons {
-    /* width: 500px; */
-    /* height: 50px; */
-    /* position: relative; */
-    margin-top: 98%;
-    /* left: 30%; */
-    text-align: justify;
-     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row; 
+#buttons a {
+    text-decoration: none;
+    color: orange;
 }
 
-#onePlayer {
-    width: 200px;
-    height: 50px;
+#buttons:hover {
+    box-shadow: 0 5px 50px 0 orange inset, 0 5px 50px 0 orange, 0 5px 50px 0 orange inset, 0 5px 50px 0 orange;
+    text-shadow: 0 0 5px orange, 0 0 5px orange;
 }
 
-#twoPlayer {
-    width: 200px;
-    height: 50px;
-}
 
-#Howto {
-    width: 200px;
-    height: 50px;
+#howto {
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    font-size: 25px;
+    color: orange;
+    font-family: cursive;
+    font-weight: bolder;
+    border: 5px solid orange;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+} 
+
+#howto:hover {
+    box-shadow: 0 5px 50px 0 orange inset, 0 5px 50px 0 orange, 0 5px 50px 0 orange inset, 0 5px 50px 0 orange;
+    text-shadow: 0 0 5px orange, 0 0 5px orange;
 }
 
 .modal {
@@ -95,10 +123,6 @@ p {
     text-align: right;
 }
 
-#images {
-    text-align: center;
-}
-
 #grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -116,6 +140,9 @@ p {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color:black;
     
 }
 
@@ -127,6 +154,7 @@ p {
     color: silver;
     text-decoration: underline;
     font-weight: bolder;
+    border: solid silver 2px;
     
 }
 
@@ -141,4 +169,43 @@ p {
 #directions {
     color: black;
     text-decoration: underline;
+}
+
+#congrats {
+    font-size: 36px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#congratss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    font-size: 25px;
+    color: orange;
+    font-family: cursive;
+    font-weight: bolder;
+    border: 5px solid orange;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    background-color: navy;
+} 
+
+#congratss:hover {
+    box-shadow: 0 5px 50px 0 orange inset, 0 5px 50px 0 orange, 0 5px 50px 0 orange inset, 0 5px 50px 0 orange;
+    text-shadow: 0 0 5px orange, 0 0 5px orange;
+}
+
+#congratss a {
+    text-decoration: none;
+    color: orange;
 }

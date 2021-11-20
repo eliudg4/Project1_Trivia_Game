@@ -1,6 +1,6 @@
 // Creating a modal popup for my instructions button
 
-const howTo = document.querySelector('#Howto')
+const howTo = document.querySelector('#howto')
 const button = document.querySelector('#close')
 const modal = document.querySelector('.modal')
 
